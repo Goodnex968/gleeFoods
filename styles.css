@@ -67,6 +67,11 @@ body {
   font-weight: bold;
   margin-bottom: 20px;
   color: #333;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
 }
 
 .menu-items {
@@ -128,7 +133,8 @@ body {
   color: #333;
 }
 
-.order-form input, .order-form select {
+.order-form input,
+.order-form select {
   margin-bottom: 20px;
   padding: 10px;
   border: none;
